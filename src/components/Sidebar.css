@@ -1,0 +1,62 @@
+/* Sidebar.css */
+*{
+  font-family: 'Poppins';
+}
+.ant-layout-sider-children {
+  background: #000000;
+}
+
+.ant-layout-sider {
+  width: 80px;
+}
+
+.ant-menu {
+  background: #000000;
+  border-right: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 320px;
+  margin: 16px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.ant-menu-item {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-menu-item .anticon {
+  color: rgb(255, 255, 255) !important; /* Cambiar color del ícono */
+}
+
+/* Quitar efecto hover */
+.ant-menu-item:hover {
+  color: rgb(243, 237, 237) !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #ff0000 !important;
+}
+
+.ant-menu-item-selected a {
+  color: #ffffff !important;
+}
+
+/* Remove ellipsis */
+.ant-menu-item .anticon + span {
+  height: 0;
+  display: inline-block;
+  overflow: hidden;
+}

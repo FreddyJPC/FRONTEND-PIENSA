@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  font-family: 'Poppins';
+}
+.ant-typography {
+  font-family: 'Poppins';
+}
+ 
+body, html, .layout {
+  font-family: 'Poppins';
+  min-height: 100vh;
+}
+
+.layout {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+
+.site-layout-content {
+  padding: 0px;
+}
+
+.title {
+  color: #cf1322;
+}
+
+.description {
+  font-family: 'Poppins';
+  color: #595959;
+}
+
+.paragraph {
+  font-family: 'Poppins';
+}
+
+.card {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 18px 18px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+
+.card .ant-card-head {
+  background-color: #cf1322;
+  color: white;
+}
+
+.card1 .ant-card-head {
+  text-align: center;
+  background-color: #1da1f2;
+  color: white;
+}
+
+.card2 .ant-card-head {
+  text-align: center;
+  background-color: #ff9f1c;
+  color: white;
+}
+
+.card3 .ant-card-head {
+  text-align: center;
+  background-color: #17b978;
+  color: white;
+}
+
+.card .ant-card-body {
+  color: white;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .paragraph {
+    font-size: small;
+  }
+
+  .ant-typography {
+    font-size: 12px;
+  }
+
+  .logo {
+    font-size: 16px;
+    width: 100px;
+  }
+  .layout {
+    min-height: 100vh;
+    padding: 0px;
+  }
+  
+  
+
+  .site-layout-content {
+    padding: 12px;
+  }
+
+  .card {
+    margin-bottom: 16px;
+  }
+}
